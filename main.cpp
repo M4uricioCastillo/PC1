@@ -35,10 +35,12 @@ int main()
             realizarPedido();
             break;
         case 2:
-            
+            system("cls");
+            verPedido();
             break;
         case 3:
-            /* code */
+            system("cls");
+            printf("Gracias por su visita");
             break;
         default:
             break;
